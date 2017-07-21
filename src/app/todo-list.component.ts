@@ -12,7 +12,15 @@ export class TodolistComponent {
     {id: 3, userid: 1, title: 'todo item 3, belong to user 1', completed: false},
     {id: 4, userid: 2, title: 'todo item 4, belong to user 2', completed: false}];
 
-    myOnlyItem: Todoitem = { id: 7, userid: 1, title: 'onlytest', completed: false };
+    setItemComplete(item: Todoitem) {
+        item.completed = true;
+        /* do some call */
+    }
+
+    setItemIncomplete(item: Todoitem) {
+        item.completed = false;
+        /* call here */
+    }
 }
 
 class Todoitem {
