@@ -1,0 +1,12 @@
+<h2> My Todo List </h2>
+<div class="todoItem transform" (click)="checked = !checked" [class.itemCompleted]=checked >test </div>
+<div class="todoItem transform" [class.itemCompleted]="myOnlyItem.completed" (click)="myOnlyItem.completed = true" >{{myOnlyItem.title}} , {{myOnlyItem.completed}} </div>
+<div class="todoItem transform" *ngFor="let item of items" (click)="item.completed = true" [class.itemCompleted]="item.completed">
+        {{item.title}}
+</div>
+<!--
+    <div *ngFor="let item of {{items}}" > {{item.title}} </div>
+    <div class="todoItem transform" *ngFor="let item of {{items}}" (click)="{{item.completed}} = true" [class.itemCompleted]="{{item.completed}}">
+        {{item.title}}
+    </div>
+-->

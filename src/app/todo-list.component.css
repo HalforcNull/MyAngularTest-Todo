@@ -1,0 +1,26 @@
+.todoItem {
+    background-color: #45CEE0;
+    height: 50px;
+    width: 150px;
+}
+
+.transform {
+  -webkit-transition: all 2s ease;  
+  -moz-transition: all 2s ease;  
+  -o-transition: all 2s ease;  
+  -ms-transition: all 2s ease;  
+  transition: all 2s ease;
+}
+
+.itemCompleted {  
+  height: 0px;
+  opacity: 0;
+}
+
+.itemTest{
+    background-color: #111111;
+    height: 50px;
+    width: 150px;
+}
+
+

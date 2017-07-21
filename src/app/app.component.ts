@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Todo List';
+  todos: TodoItem[];
 }
+
+class TodoItem {
+  userId: number;
+  id: number;
+  title: string;
+  completed: boolean;
+}
+

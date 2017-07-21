@@ -1,0 +1,6 @@
+[
+    {"id": 1, "usereid": 1, "title": "todo item 1, belong to user 1", "completed": false},
+    {"id": 2, "usereid": 1, "title": "todo item 2, belong to user 1", "completed": false},
+    {"id": 3, "usereid": 1, "title": "todo item 3, belong to user 1", "completed": false},
+    {"id": 4, "usereid": 2, "title": "todo item 4, belong to user 2", "completed": false}
+]
